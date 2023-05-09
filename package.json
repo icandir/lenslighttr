@@ -1,0 +1,24 @@
+{
+  "name": "lenslighttr",
+  "version": "1.0.0",
+  "description": "LensLight Node",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git.epias.com.tr"
+  },
+  "author": "IBRAHIM CANDIR",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "yarn": "^1.22.19"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
