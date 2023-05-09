@@ -6,7 +6,8 @@
   "type": "module",
   "scripts": {
     "start": "nodemon app.js",
-    "test": "test"
+    "test": "test",
+    "stop": "taskkill -f -im node.exe"
   },
   "repository": {
     "type": "git",
@@ -15,7 +16,10 @@
   "author": "IBRAHIM CANDIR",
   "license": "ISC",
   "dependencies": {
+    "dotenv": "^16.0.3",
+    "ejs": "^3.1.9",
     "express": "^4.18.2",
+    "mongoose": "^7.1.0",
     "yarn": "^1.22.19"
   },
   "devDependencies": {
